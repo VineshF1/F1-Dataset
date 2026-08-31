@@ -1,0 +1,18 @@
+{
+  "total": 5670,
+  "by_type": {
+    "race_result": 3447,
+    "driver_bio": 1748,
+    "season_champion": 364,
+    "season_summary": 80,
+    "incident": 31
+  },
+  "sources": 2252,
+  "by_era": {
+    "1950-1969": 664,
+    "1970-1989": 1026,
+    "unknown": 1748,
+    "2010-2025": 1090,
+    "1990-2009": 1142
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "MRData": {
+    "xmlns": "",
+    "series": "f1",
+    "RaceTable": {
+      "season": "2021",
+      "round": "6",
+      "Races": [
+        {
+          "season": "2021",
+          "round": "6",
+          "url": "https://en.wikipedia.org/wiki/2021_Azerbaijan_Grand_Prix",
+          "raceName": "Azerbaijan Grand Prix",
+          "Circuit": {
+            "circuitId": "baku",
+            "url": "https://en.wikipedia.org/wiki/Baku_City_Circuit",
+            "circuitName": "Baku City Circuit",
+            "Location": {
+              "lat": "40.3725",
+              "long": "49.8533",
+              "locality": "Baku",
+              "country": "Azerbaijan"
+            }
+          },
+          "date": "2021-06-06",
+          "time": "12:00:00Z",
+          "QualifyingResults": [
+            {
+              "number": "16",
+              "position": "1",
+              "Driver": {
+                "driverId": "leclerc",
+                "permanentNumber": "16",
+                "code": "LEC",
+                "url": "http://en.wikipedia.org/wiki/Charles_Leclerc",
+                "givenName": "Charles",
+                "familyName": "Leclerc",
+                "dateOfBirth": "1997-10-16",
+                "nationality": "Monegasque"
+              },
+              "Constructor": {
+                "constructorId": "ferrari",
+                "url": "https://en.wikipedia.org/wiki/Scuderia_Ferrari",
+                "name": "Ferrari",
+                "nationality": "Italian"
+              },
+              "Q1": "1:42.241",
+              "Q2": "1:41.659",
+              "Q3": "1:41.218"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "seasons": 76,
+  "races_merged": 1149,
+  "normalized_rows": 25862,
+  "champions": 144,
+  "race_counts_sample": {
+    "1950": 160,
+    "1951": 179,
+    "1952": 204,
+    "1953": 244,
+    "1954": 228
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "drivers": {
+    "total": 881,
+    "missing": 0,
+    "low_traffic": 421,
+    "chars": 7112254
+  },
+  "seasons": {
+    "total": 76,
+    "missing": 0,
+    "low_traffic": 0,
+    "chars": 2087605
+  },
+  "incidents": {
+    "total": 16,
+    "missing": 2,
+    "low_traffic": 0,
+    "chars": 440011
+  },
+  "constructors": {
+    "total": 11,
+    "missing": 0,
+    "low_traffic": 0,
+    "chars": 451460
+  },
+  "elapsed_s": 628.3570237159729
+}

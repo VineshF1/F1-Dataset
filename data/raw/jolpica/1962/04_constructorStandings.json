@@ -1,0 +1,149 @@
+{
+  "MRData": {
+    "xmlns": "",
+    "series": "f1",
+    "url": "https://api.jolpi.ca/ergast/f1/1962/4/constructorstandings.json",
+    "limit": "30",
+    "offset": "0",
+    "total": "11",
+    "StandingsTable": {
+      "season": "1962",
+      "round": "4",
+      "StandingsLists": [
+        {
+          "season": "1962",
+          "round": "4",
+          "ConstructorStandings": [
+            {
+              "position": "1",
+              "positionText": "1",
+              "points": "20",
+              "wins": "1",
+              "Constructor": {
+                "constructorId": "brm",
+                "url": "https://en.wikipedia.org/wiki/British_Racing_Motors",
+                "name": "BRM",
+                "nationality": "British"
+              }
+            },
+            {
+              "position": "2",
+              "positionText": "2",
+              "points": "17",
+              "wins": "1",
+              "Constructor": {
+                "constructorId": "cooper-climax",
+                "url": "https://en.wikipedia.org/wiki/Cooper_Car_Company",
+                "name": "Cooper-Climax",
+                "nationality": "British"
+              }
+            },
+            {
+              "position": "3",
+              "positionText": "3",
+              "points": "15",
+              "wins": "1",
+              "Constructor": {
+                "constructorId": "lotus-climax",
+                "url": "https://en.wikipedia.org/wiki/Team_Lotus",
+                "name": "Lotus-Climax",
+                "nationality": "British"
+              }
+            },
+            {
+              "position": "4",
+              "positionText": "4",
+              "points": "14",
+              "wins": "0",
+              "Constructor": {
+                "constructorId": "ferrari",
+                "url": "https://en.wikipedia.org/wiki/Scuderia_Ferrari",
+                "name": "Ferrari",
+                "nationality": "Italian"
+              }
+            },
+            {
+              "position": "5",
+              "positionText": "5",
+              "points": "12",
+              "wins": "1",
+              "Constructor": {
+                "constructorId": "porsche",
+                "url": "https://en.wikipedia.org/wiki/Porsche_in_motorsport",
+                "name": "Porsche",
+                "nationality": "German"
+              }
+            },
+            {
+              "position": "6",
+              "positionText": "6",
+              "points": "7",
+              "wins": "0",
+              "Constructor": {
+                "constructorId": "lola",
+                "url": "https://en.wikipedia.org/wiki/MasterCard_Lola",
+                "name": "Lola",
+                "nationality": "British"
+              }
+            },
+            {
+              "positionText": "-",
+              "points": "0",
+              "wins": "0",
+              "Constructor": {
+                "constructorId": "cooper",
+                "url": "https://en.wikipedia.org/wiki/Cooper_Car_Company",
+                "name": "Cooper",
+                "nationality": "British"
+              }
+            },
+            {
+              "positionText": "-",
+              "points": "0",
+              "wins": "0",
+              "Constructor": {
+                "constructorId": "lotus-brm",
+                "url": "https://en.wikipedia.org/wiki/Team_Lotus",
+                "name": "Lotus-BRM",
+                "nationality": "British"
+              }
+            },
+            {
+              "positionText": "-",
+              "points": "0",
+              "wins": "0",
+              "Constructor": {
+                "constructorId": "emeryson",
+                "url": "https://en.wikipedia.org/wiki/Emeryson",
+                "name": "Emeryson",
+                "nationality": "British"
+              }
+            },
+            {
+              "positionText": "-",
+              "points": "0",
+              "wins": "0",
+              "Constructor": {
+                "constructorId": "team_lotus",
+                "url": "https://en.wikipedia.org/wiki/Team_Lotus",
+                "name": "Team Lotus",
+                "nationality": "British"
+              }
+            },
+            {
+              "positionText": "-",
+              "points": "0",
+              "wins": "0",
+              "Constructor": {
+                "constructorId": "de_tomaso-alfa_romeo",
+                "url": "https://en.wikipedia.org/wiki/De_Tomaso",
+                "name": "De Tomaso-Alfa Romeo",
+                "nationality": "Italian"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

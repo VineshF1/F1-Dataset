@@ -1,0 +1,56 @@
+{
+  "MRData": {
+    "xmlns": "",
+    "series": "f1",
+    "RaceTable": {
+      "season": "2024",
+      "round": "11",
+      "Races": [
+        {
+          "season": "2024",
+          "round": "11",
+          "url": "https://en.wikipedia.org/wiki/2024_Austrian_Grand_Prix",
+          "raceName": "Austrian Grand Prix",
+          "Circuit": {
+            "circuitId": "red_bull_ring",
+            "url": "https://en.wikipedia.org/wiki/Red_Bull_Ring",
+            "circuitName": "Red Bull Ring",
+            "Location": {
+              "lat": "47.2197",
+              "long": "14.7647",
+              "locality": "Spielberg",
+              "country": "Austria"
+            }
+          },
+          "date": "2024-06-30",
+          "time": "13:00:00Z",
+          "QualifyingResults": [
+            {
+              "number": "55",
+              "position": "4",
+              "Driver": {
+                "driverId": "sainz",
+                "permanentNumber": "55",
+                "code": "SAI",
+                "url": "http://en.wikipedia.org/wiki/Carlos_Sainz_Jr.",
+                "givenName": "Carlos",
+                "familyName": "Sainz",
+                "dateOfBirth": "1994-09-01",
+                "nationality": "Spanish"
+              },
+              "Constructor": {
+                "constructorId": "ferrari",
+                "url": "https://en.wikipedia.org/wiki/Scuderia_Ferrari",
+                "name": "Ferrari",
+                "nationality": "Italian"
+              },
+              "Q1": "1:05.263",
+              "Q2": "1:05.016",
+              "Q3": "1:04.851"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

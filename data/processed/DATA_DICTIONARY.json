@@ -1,0 +1,38 @@
+{
+  "races_normalized.jsonl": {
+    "race_id": "{season}-{round:02d}",
+    "season": "int 1950-2025",
+    "round": "int",
+    "raceName": "str",
+    "circuit": "circuitId",
+    "circuitName": "str",
+    "country": "str",
+    "date": "YYYY-MM-DD",
+    "driverId": "str",
+    "driver": "str",
+    "constructorId": "str",
+    "constructor": "str",
+    "grid": "int|None",
+    "finish": "str (1..n/R)",
+    "points": "float",
+    "status": "Finished|Retired|...",
+    "laps": "int|None",
+    "source": "Jolpica:{season}/{round}/results"
+  },
+  "qa.jsonl": {
+    "question": "str paraphrased",
+    "answer": "str factual",
+    "source": "Jolpica|Wikipedia URL",
+    "entity_type": "race_result|season_champion|driver_bio|incident|season_summary",
+    "season": "int|None"
+  },
+  "champions.json": {
+    "season": "int",
+    "type": "drivers|constructors",
+    "champion": "str",
+    "championId": "str",
+    "points": "str",
+    "wins": "str",
+    "source": "Jolpica:season/driverStandings"
+  }
+}

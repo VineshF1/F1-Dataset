@@ -1,0 +1,1298 @@
+[
+  {
+    "season": 1950,
+    "type": "drivers",
+    "champion": "Nino Farina",
+    "championId": "farina",
+    "points": "30",
+    "wins": "3",
+    "source": "Jolpica:1950/driverStandings"
+  },
+  {
+    "season": 1951,
+    "type": "drivers",
+    "champion": "Juan Fangio",
+    "championId": "fangio",
+    "points": "31",
+    "wins": "3",
+    "source": "Jolpica:1951/driverStandings"
+  },
+  {
+    "season": 1952,
+    "type": "drivers",
+    "champion": "Alberto Ascari",
+    "championId": "ascari",
+    "points": "36",
+    "wins": "6",
+    "source": "Jolpica:1952/driverStandings"
+  },
+  {
+    "season": 1953,
+    "type": "drivers",
+    "champion": "Alberto Ascari",
+    "championId": "ascari",
+    "points": "34.5",
+    "wins": "5",
+    "source": "Jolpica:1953/driverStandings"
+  },
+  {
+    "season": 1954,
+    "type": "drivers",
+    "champion": "Juan Fangio",
+    "championId": "fangio",
+    "points": "42",
+    "wins": "6",
+    "source": "Jolpica:1954/driverStandings"
+  },
+  {
+    "season": 1955,
+    "type": "drivers",
+    "champion": "Juan Fangio",
+    "championId": "fangio",
+    "points": "40",
+    "wins": "4",
+    "source": "Jolpica:1955/driverStandings"
+  },
+  {
+    "season": 1956,
+    "type": "drivers",
+    "champion": "Juan Fangio",
+    "championId": "fangio",
+    "points": "30",
+    "wins": "3",
+    "source": "Jolpica:1956/driverStandings"
+  },
+  {
+    "season": 1957,
+    "type": "drivers",
+    "champion": "Juan Fangio",
+    "championId": "fangio",
+    "points": "40",
+    "wins": "4",
+    "source": "Jolpica:1957/driverStandings"
+  },
+  {
+    "season": 1958,
+    "type": "drivers",
+    "champion": "Mike Hawthorn",
+    "championId": "hawthorn",
+    "points": "42",
+    "wins": "1",
+    "source": "Jolpica:1958/driverStandings"
+  },
+  {
+    "season": 1958,
+    "type": "constructors",
+    "champion": "Vanwall",
+    "championId": "vanwall",
+    "points": "48",
+    "wins": "6",
+    "source": "Jolpica:1958/constructorStandings"
+  },
+  {
+    "season": 1959,
+    "type": "drivers",
+    "champion": "Jack Brabham",
+    "championId": "jack_brabham",
+    "points": "31",
+    "wins": "2",
+    "source": "Jolpica:1959/driverStandings"
+  },
+  {
+    "season": 1959,
+    "type": "constructors",
+    "champion": "Cooper-Climax",
+    "championId": "cooper-climax",
+    "points": "40",
+    "wins": "5",
+    "source": "Jolpica:1959/constructorStandings"
+  },
+  {
+    "season": 1960,
+    "type": "drivers",
+    "champion": "Jack Brabham",
+    "championId": "jack_brabham",
+    "points": "43",
+    "wins": "5",
+    "source": "Jolpica:1960/driverStandings"
+  },
+  {
+    "season": 1960,
+    "type": "constructors",
+    "champion": "Cooper-Climax",
+    "championId": "cooper-climax",
+    "points": "48",
+    "wins": "6",
+    "source": "Jolpica:1960/constructorStandings"
+  },
+  {
+    "season": 1961,
+    "type": "drivers",
+    "champion": "Phil Hill",
+    "championId": "phil_hill",
+    "points": "34",
+    "wins": "2",
+    "source": "Jolpica:1961/driverStandings"
+  },
+  {
+    "season": 1961,
+    "type": "constructors",
+    "champion": "Ferrari",
+    "championId": "ferrari",
+    "points": "45",
+    "wins": "5",
+    "source": "Jolpica:1961/constructorStandings"
+  },
+  {
+    "season": 1962,
+    "type": "drivers",
+    "champion": "Graham Hill",
+    "championId": "hill",
+    "points": "42",
+    "wins": "4",
+    "source": "Jolpica:1962/driverStandings"
+  },
+  {
+    "season": 1962,
+    "type": "constructors",
+    "champion": "BRM",
+    "championId": "brm",
+    "points": "42",
+    "wins": "4",
+    "source": "Jolpica:1962/constructorStandings"
+  },
+  {
+    "season": 1963,
+    "type": "drivers",
+    "champion": "Jim Clark",
+    "championId": "clark",
+    "points": "54",
+    "wins": "7",
+    "source": "Jolpica:1963/driverStandings"
+  },
+  {
+    "season": 1963,
+    "type": "constructors",
+    "champion": "Lotus-Climax",
+    "championId": "lotus-climax",
+    "points": "54",
+    "wins": "7",
+    "source": "Jolpica:1963/constructorStandings"
+  },
+  {
+    "season": 1964,
+    "type": "drivers",
+    "champion": "John Surtees",
+    "championId": "surtees",
+    "points": "40",
+    "wins": "2",
+    "source": "Jolpica:1964/driverStandings"
+  },
+  {
+    "season": 1964,
+    "type": "constructors",
+    "champion": "Ferrari",
+    "championId": "ferrari",
+    "points": "45",
+    "wins": "3",
+    "source": "Jolpica:1964/constructorStandings"
+  },
+  {
+    "season": 1965,
+    "type": "drivers",
+    "champion": "Jim Clark",
+    "championId": "clark",
+    "points": "54",
+    "wins": "6",
+    "source": "Jolpica:1965/driverStandings"
+  },
+  {
+    "season": 1965,
+    "type": "constructors",
+    "champion": "Lotus-Climax",
+    "championId": "lotus-climax",
+    "points": "54",
+    "wins": "6",
+    "source": "Jolpica:1965/constructorStandings"
+  },
+  {
+    "season": 1966,
+    "type": "drivers",
+    "champion": "Jack Brabham",
+    "championId": "jack_brabham",
+    "points": "42",
+    "wins": "4",
+    "source": "Jolpica:1966/driverStandings"
+  },
+  {
+    "season": 1966,
+    "type": "constructors",
+    "champion": "Brabham-Repco",
+    "championId": "brabham-repco",
+    "points": "42",
+    "wins": "4",
+    "source": "Jolpica:1966/constructorStandings"
+  },
+  {
+    "season": 1967,
+    "type": "drivers",
+    "champion": "Denny Hulme",
+    "championId": "hulme",
+    "points": "51",
+    "wins": "2",
+    "source": "Jolpica:1967/driverStandings"
+  },
+  {
+    "season": 1967,
+    "type": "constructors",
+    "champion": "Brabham-Repco",
+    "championId": "brabham-repco",
+    "points": "67",
+    "wins": "4",
+    "source": "Jolpica:1967/constructorStandings"
+  },
+  {
+    "season": 1968,
+    "type": "drivers",
+    "champion": "Graham Hill",
+    "championId": "hill",
+    "points": "48",
+    "wins": "3",
+    "source": "Jolpica:1968/driverStandings"
+  },
+  {
+    "season": 1968,
+    "type": "constructors",
+    "champion": "Lotus-Ford",
+    "championId": "lotus-ford",
+    "points": "62",
+    "wins": "5",
+    "source": "Jolpica:1968/constructorStandings"
+  },
+  {
+    "season": 1969,
+    "type": "drivers",
+    "champion": "Jackie Stewart",
+    "championId": "stewart",
+    "points": "63",
+    "wins": "6",
+    "source": "Jolpica:1969/driverStandings"
+  },
+  {
+    "season": 1969,
+    "type": "constructors",
+    "champion": "Matra-Ford",
+    "championId": "matra-ford",
+    "points": "66",
+    "wins": "6",
+    "source": "Jolpica:1969/constructorStandings"
+  },
+  {
+    "season": 1970,
+    "type": "drivers",
+    "champion": "Jochen Rindt",
+    "championId": "rindt",
+    "points": "45",
+    "wins": "5",
+    "source": "Jolpica:1970/driverStandings"
+  },
+  {
+    "season": 1970,
+    "type": "constructors",
+    "champion": "Team Lotus",
+    "championId": "team_lotus",
+    "points": "59",
+    "wins": "6",
+    "source": "Jolpica:1970/constructorStandings"
+  },
+  {
+    "season": 1971,
+    "type": "drivers",
+    "champion": "Jackie Stewart",
+    "championId": "stewart",
+    "points": "62",
+    "wins": "6",
+    "source": "Jolpica:1971/driverStandings"
+  },
+  {
+    "season": 1971,
+    "type": "constructors",
+    "champion": "Tyrrell",
+    "championId": "tyrrell",
+    "points": "73",
+    "wins": "7",
+    "source": "Jolpica:1971/constructorStandings"
+  },
+  {
+    "season": 1972,
+    "type": "drivers",
+    "champion": "Emerson Fittipaldi",
+    "championId": "emerson_fittipaldi",
+    "points": "61",
+    "wins": "5",
+    "source": "Jolpica:1972/driverStandings"
+  },
+  {
+    "season": 1972,
+    "type": "constructors",
+    "champion": "Team Lotus",
+    "championId": "team_lotus",
+    "points": "61",
+    "wins": "5",
+    "source": "Jolpica:1972/constructorStandings"
+  },
+  {
+    "season": 1973,
+    "type": "drivers",
+    "champion": "Jackie Stewart",
+    "championId": "stewart",
+    "points": "71",
+    "wins": "5",
+    "source": "Jolpica:1973/driverStandings"
+  },
+  {
+    "season": 1973,
+    "type": "constructors",
+    "champion": "Team Lotus",
+    "championId": "team_lotus",
+    "points": "91",
+    "wins": "7",
+    "source": "Jolpica:1973/constructorStandings"
+  },
+  {
+    "season": 1974,
+    "type": "drivers",
+    "champion": "Emerson Fittipaldi",
+    "championId": "emerson_fittipaldi",
+    "points": "55",
+    "wins": "3",
+    "source": "Jolpica:1974/driverStandings"
+  },
+  {
+    "season": 1974,
+    "type": "constructors",
+    "champion": "McLaren",
+    "championId": "mclaren",
+    "points": "72",
+    "wins": "4",
+    "source": "Jolpica:1974/constructorStandings"
+  },
+  {
+    "season": 1975,
+    "type": "drivers",
+    "champion": "Niki Lauda",
+    "championId": "lauda",
+    "points": "64.5",
+    "wins": "5",
+    "source": "Jolpica:1975/driverStandings"
+  },
+  {
+    "season": 1975,
+    "type": "constructors",
+    "champion": "Ferrari",
+    "championId": "ferrari",
+    "points": "72.5",
+    "wins": "6",
+    "source": "Jolpica:1975/constructorStandings"
+  },
+  {
+    "season": 1976,
+    "type": "drivers",
+    "champion": "James Hunt",
+    "championId": "hunt",
+    "points": "69",
+    "wins": "6",
+    "source": "Jolpica:1976/driverStandings"
+  },
+  {
+    "season": 1976,
+    "type": "constructors",
+    "champion": "Ferrari",
+    "championId": "ferrari",
+    "points": "83",
+    "wins": "6",
+    "source": "Jolpica:1976/constructorStandings"
+  },
+  {
+    "season": 1977,
+    "type": "drivers",
+    "champion": "Niki Lauda",
+    "championId": "lauda",
+    "points": "70",
+    "wins": "3",
+    "source": "Jolpica:1977/driverStandings"
+  },
+  {
+    "season": 1977,
+    "type": "constructors",
+    "champion": "Ferrari",
+    "championId": "ferrari",
+    "points": "84",
+    "wins": "4",
+    "source": "Jolpica:1977/constructorStandings"
+  },
+  {
+    "season": 1978,
+    "type": "drivers",
+    "champion": "Mario Andretti",
+    "championId": "mario_andretti",
+    "points": "64",
+    "wins": "6",
+    "source": "Jolpica:1978/driverStandings"
+  },
+  {
+    "season": 1978,
+    "type": "constructors",
+    "champion": "Team Lotus",
+    "championId": "team_lotus",
+    "points": "86",
+    "wins": "8",
+    "source": "Jolpica:1978/constructorStandings"
+  },
+  {
+    "season": 1979,
+    "type": "drivers",
+    "champion": "Jody Scheckter",
+    "championId": "scheckter",
+    "points": "51",
+    "wins": "3",
+    "source": "Jolpica:1979/driverStandings"
+  },
+  {
+    "season": 1979,
+    "type": "constructors",
+    "champion": "Ferrari",
+    "championId": "ferrari",
+    "points": "113",
+    "wins": "6",
+    "source": "Jolpica:1979/constructorStandings"
+  },
+  {
+    "season": 1980,
+    "type": "drivers",
+    "champion": "Alan Jones",
+    "championId": "jones",
+    "points": "67",
+    "wins": "5",
+    "source": "Jolpica:1980/driverStandings"
+  },
+  {
+    "season": 1980,
+    "type": "constructors",
+    "champion": "Williams",
+    "championId": "williams",
+    "points": "120",
+    "wins": "6",
+    "source": "Jolpica:1980/constructorStandings"
+  },
+  {
+    "season": 1981,
+    "type": "drivers",
+    "champion": "Nelson Piquet",
+    "championId": "piquet",
+    "points": "50",
+    "wins": "3",
+    "source": "Jolpica:1981/driverStandings"
+  },
+  {
+    "season": 1981,
+    "type": "constructors",
+    "champion": "Williams",
+    "championId": "williams",
+    "points": "95",
+    "wins": "4",
+    "source": "Jolpica:1981/constructorStandings"
+  },
+  {
+    "season": 1982,
+    "type": "drivers",
+    "champion": "Keke Rosberg",
+    "championId": "keke_rosberg",
+    "points": "44",
+    "wins": "1",
+    "source": "Jolpica:1982/driverStandings"
+  },
+  {
+    "season": 1982,
+    "type": "constructors",
+    "champion": "Ferrari",
+    "championId": "ferrari",
+    "points": "74",
+    "wins": "3",
+    "source": "Jolpica:1982/constructorStandings"
+  },
+  {
+    "season": 1983,
+    "type": "drivers",
+    "champion": "Nelson Piquet",
+    "championId": "piquet",
+    "points": "59",
+    "wins": "3",
+    "source": "Jolpica:1983/driverStandings"
+  },
+  {
+    "season": 1983,
+    "type": "constructors",
+    "champion": "Ferrari",
+    "championId": "ferrari",
+    "points": "89",
+    "wins": "4",
+    "source": "Jolpica:1983/constructorStandings"
+  },
+  {
+    "season": 1984,
+    "type": "drivers",
+    "champion": "Niki Lauda",
+    "championId": "lauda",
+    "points": "72",
+    "wins": "5",
+    "source": "Jolpica:1984/driverStandings"
+  },
+  {
+    "season": 1984,
+    "type": "constructors",
+    "champion": "McLaren",
+    "championId": "mclaren",
+    "points": "143.5",
+    "wins": "12",
+    "source": "Jolpica:1984/constructorStandings"
+  },
+  {
+    "season": 1985,
+    "type": "drivers",
+    "champion": "Alain Prost",
+    "championId": "prost",
+    "points": "73",
+    "wins": "5",
+    "source": "Jolpica:1985/driverStandings"
+  },
+  {
+    "season": 1985,
+    "type": "constructors",
+    "champion": "McLaren",
+    "championId": "mclaren",
+    "points": "90",
+    "wins": "6",
+    "source": "Jolpica:1985/constructorStandings"
+  },
+  {
+    "season": 1986,
+    "type": "drivers",
+    "champion": "Alain Prost",
+    "championId": "prost",
+    "points": "72",
+    "wins": "4",
+    "source": "Jolpica:1986/driverStandings"
+  },
+  {
+    "season": 1986,
+    "type": "constructors",
+    "champion": "Williams",
+    "championId": "williams",
+    "points": "141",
+    "wins": "9",
+    "source": "Jolpica:1986/constructorStandings"
+  },
+  {
+    "season": 1987,
+    "type": "drivers",
+    "champion": "Nelson Piquet",
+    "championId": "piquet",
+    "points": "73",
+    "wins": "3",
+    "source": "Jolpica:1987/driverStandings"
+  },
+  {
+    "season": 1987,
+    "type": "constructors",
+    "champion": "Williams",
+    "championId": "williams",
+    "points": "137",
+    "wins": "9",
+    "source": "Jolpica:1987/constructorStandings"
+  },
+  {
+    "season": 1988,
+    "type": "drivers",
+    "champion": "Ayrton Senna",
+    "championId": "senna",
+    "points": "90",
+    "wins": "8",
+    "source": "Jolpica:1988/driverStandings"
+  },
+  {
+    "season": 1988,
+    "type": "constructors",
+    "champion": "McLaren",
+    "championId": "mclaren",
+    "points": "199",
+    "wins": "15",
+    "source": "Jolpica:1988/constructorStandings"
+  },
+  {
+    "season": 1989,
+    "type": "drivers",
+    "champion": "Alain Prost",
+    "championId": "prost",
+    "points": "76",
+    "wins": "4",
+    "source": "Jolpica:1989/driverStandings"
+  },
+  {
+    "season": 1989,
+    "type": "constructors",
+    "champion": "McLaren",
+    "championId": "mclaren",
+    "points": "141",
+    "wins": "10",
+    "source": "Jolpica:1989/constructorStandings"
+  },
+  {
+    "season": 1990,
+    "type": "drivers",
+    "champion": "Ayrton Senna",
+    "championId": "senna",
+    "points": "78",
+    "wins": "6",
+    "source": "Jolpica:1990/driverStandings"
+  },
+  {
+    "season": 1990,
+    "type": "constructors",
+    "champion": "McLaren",
+    "championId": "mclaren",
+    "points": "121",
+    "wins": "6",
+    "source": "Jolpica:1990/constructorStandings"
+  },
+  {
+    "season": 1991,
+    "type": "drivers",
+    "champion": "Ayrton Senna",
+    "championId": "senna",
+    "points": "96",
+    "wins": "7",
+    "source": "Jolpica:1991/driverStandings"
+  },
+  {
+    "season": 1991,
+    "type": "constructors",
+    "champion": "McLaren",
+    "championId": "mclaren",
+    "points": "139",
+    "wins": "8",
+    "source": "Jolpica:1991/constructorStandings"
+  },
+  {
+    "season": 1992,
+    "type": "drivers",
+    "champion": "Nigel Mansell",
+    "championId": "mansell",
+    "points": "108",
+    "wins": "9",
+    "source": "Jolpica:1992/driverStandings"
+  },
+  {
+    "season": 1992,
+    "type": "constructors",
+    "champion": "Williams",
+    "championId": "williams",
+    "points": "164",
+    "wins": "10",
+    "source": "Jolpica:1992/constructorStandings"
+  },
+  {
+    "season": 1993,
+    "type": "drivers",
+    "champion": "Alain Prost",
+    "championId": "prost",
+    "points": "99",
+    "wins": "7",
+    "source": "Jolpica:1993/driverStandings"
+  },
+  {
+    "season": 1993,
+    "type": "constructors",
+    "champion": "Williams",
+    "championId": "williams",
+    "points": "168",
+    "wins": "10",
+    "source": "Jolpica:1993/constructorStandings"
+  },
+  {
+    "season": 1994,
+    "type": "drivers",
+    "champion": "Michael Schumacher",
+    "championId": "michael_schumacher",
+    "points": "92",
+    "wins": "8",
+    "source": "Jolpica:1994/driverStandings"
+  },
+  {
+    "season": 1994,
+    "type": "constructors",
+    "champion": "Williams",
+    "championId": "williams",
+    "points": "118",
+    "wins": "7",
+    "source": "Jolpica:1994/constructorStandings"
+  },
+  {
+    "season": 1995,
+    "type": "drivers",
+    "champion": "Michael Schumacher",
+    "championId": "michael_schumacher",
+    "points": "102",
+    "wins": "9",
+    "source": "Jolpica:1995/driverStandings"
+  },
+  {
+    "season": 1995,
+    "type": "constructors",
+    "champion": "Benetton",
+    "championId": "benetton",
+    "points": "147",
+    "wins": "11",
+    "source": "Jolpica:1995/constructorStandings"
+  },
+  {
+    "season": 1996,
+    "type": "drivers",
+    "champion": "Damon Hill",
+    "championId": "damon_hill",
+    "points": "97",
+    "wins": "8",
+    "source": "Jolpica:1996/driverStandings"
+  },
+  {
+    "season": 1996,
+    "type": "constructors",
+    "champion": "Williams",
+    "championId": "williams",
+    "points": "175",
+    "wins": "12",
+    "source": "Jolpica:1996/constructorStandings"
+  },
+  {
+    "season": 1997,
+    "type": "drivers",
+    "champion": "Jacques Villeneuve",
+    "championId": "villeneuve",
+    "points": "81",
+    "wins": "7",
+    "source": "Jolpica:1997/driverStandings"
+  },
+  {
+    "season": 1997,
+    "type": "constructors",
+    "champion": "Williams",
+    "championId": "williams",
+    "points": "123",
+    "wins": "8",
+    "source": "Jolpica:1997/constructorStandings"
+  },
+  {
+    "season": 1998,
+    "type": "drivers",
+    "champion": "Mika Häkkinen",
+    "championId": "hakkinen",
+    "points": "100",
+    "wins": "8",
+    "source": "Jolpica:1998/driverStandings"
+  },
+  {
+    "season": 1998,
+    "type": "constructors",
+    "champion": "McLaren",
+    "championId": "mclaren",
+    "points": "156",
+    "wins": "9",
+    "source": "Jolpica:1998/constructorStandings"
+  },
+  {
+    "season": 1999,
+    "type": "drivers",
+    "champion": "Mika Häkkinen",
+    "championId": "hakkinen",
+    "points": "76",
+    "wins": "5",
+    "source": "Jolpica:1999/driverStandings"
+  },
+  {
+    "season": 1999,
+    "type": "constructors",
+    "champion": "Ferrari",
+    "championId": "ferrari",
+    "points": "128",
+    "wins": "6",
+    "source": "Jolpica:1999/constructorStandings"
+  },
+  {
+    "season": 2000,
+    "type": "drivers",
+    "champion": "Michael Schumacher",
+    "championId": "michael_schumacher",
+    "points": "108",
+    "wins": "9",
+    "source": "Jolpica:2000/driverStandings"
+  },
+  {
+    "season": 2000,
+    "type": "constructors",
+    "champion": "Ferrari",
+    "championId": "ferrari",
+    "points": "170",
+    "wins": "10",
+    "source": "Jolpica:2000/constructorStandings"
+  },
+  {
+    "season": 2001,
+    "type": "drivers",
+    "champion": "Michael Schumacher",
+    "championId": "michael_schumacher",
+    "points": "123",
+    "wins": "9",
+    "source": "Jolpica:2001/driverStandings"
+  },
+  {
+    "season": 2001,
+    "type": "constructors",
+    "champion": "Ferrari",
+    "championId": "ferrari",
+    "points": "179",
+    "wins": "9",
+    "source": "Jolpica:2001/constructorStandings"
+  },
+  {
+    "season": 2002,
+    "type": "drivers",
+    "champion": "Michael Schumacher",
+    "championId": "michael_schumacher",
+    "points": "144",
+    "wins": "11",
+    "source": "Jolpica:2002/driverStandings"
+  },
+  {
+    "season": 2002,
+    "type": "constructors",
+    "champion": "Ferrari",
+    "championId": "ferrari",
+    "points": "221",
+    "wins": "15",
+    "source": "Jolpica:2002/constructorStandings"
+  },
+  {
+    "season": 2003,
+    "type": "drivers",
+    "champion": "Michael Schumacher",
+    "championId": "michael_schumacher",
+    "points": "93",
+    "wins": "6",
+    "source": "Jolpica:2003/driverStandings"
+  },
+  {
+    "season": 2003,
+    "type": "constructors",
+    "champion": "Ferrari",
+    "championId": "ferrari",
+    "points": "158",
+    "wins": "8",
+    "source": "Jolpica:2003/constructorStandings"
+  },
+  {
+    "season": 2004,
+    "type": "drivers",
+    "champion": "Michael Schumacher",
+    "championId": "michael_schumacher",
+    "points": "148",
+    "wins": "13",
+    "source": "Jolpica:2004/driverStandings"
+  },
+  {
+    "season": 2004,
+    "type": "constructors",
+    "champion": "Ferrari",
+    "championId": "ferrari",
+    "points": "262",
+    "wins": "15",
+    "source": "Jolpica:2004/constructorStandings"
+  },
+  {
+    "season": 2005,
+    "type": "drivers",
+    "champion": "Fernando Alonso",
+    "championId": "alonso",
+    "points": "133",
+    "wins": "7",
+    "source": "Jolpica:2005/driverStandings"
+  },
+  {
+    "season": 2005,
+    "type": "constructors",
+    "champion": "Renault",
+    "championId": "renault",
+    "points": "191",
+    "wins": "8",
+    "source": "Jolpica:2005/constructorStandings"
+  },
+  {
+    "season": 2006,
+    "type": "drivers",
+    "champion": "Fernando Alonso",
+    "championId": "alonso",
+    "points": "134",
+    "wins": "7",
+    "source": "Jolpica:2006/driverStandings"
+  },
+  {
+    "season": 2006,
+    "type": "constructors",
+    "champion": "Renault",
+    "championId": "renault",
+    "points": "206",
+    "wins": "8",
+    "source": "Jolpica:2006/constructorStandings"
+  },
+  {
+    "season": 2007,
+    "type": "drivers",
+    "champion": "Kimi Räikkönen",
+    "championId": "raikkonen",
+    "points": "110",
+    "wins": "6",
+    "source": "Jolpica:2007/driverStandings"
+  },
+  {
+    "season": 2007,
+    "type": "constructors",
+    "champion": "Ferrari",
+    "championId": "ferrari",
+    "points": "204",
+    "wins": "9",
+    "source": "Jolpica:2007/constructorStandings"
+  },
+  {
+    "season": 2008,
+    "type": "drivers",
+    "champion": "Lewis Hamilton",
+    "championId": "hamilton",
+    "points": "98",
+    "wins": "5",
+    "source": "Jolpica:2008/driverStandings"
+  },
+  {
+    "season": 2008,
+    "type": "constructors",
+    "champion": "Ferrari",
+    "championId": "ferrari",
+    "points": "172",
+    "wins": "8",
+    "source": "Jolpica:2008/constructorStandings"
+  },
+  {
+    "season": 2009,
+    "type": "drivers",
+    "champion": "Jenson Button",
+    "championId": "button",
+    "points": "95",
+    "wins": "6",
+    "source": "Jolpica:2009/driverStandings"
+  },
+  {
+    "season": 2009,
+    "type": "constructors",
+    "champion": "Brawn",
+    "championId": "brawn",
+    "points": "172",
+    "wins": "8",
+    "source": "Jolpica:2009/constructorStandings"
+  },
+  {
+    "season": 2010,
+    "type": "drivers",
+    "champion": "Sebastian Vettel",
+    "championId": "vettel",
+    "points": "256",
+    "wins": "5",
+    "source": "Jolpica:2010/driverStandings"
+  },
+  {
+    "season": 2010,
+    "type": "constructors",
+    "champion": "Red Bull",
+    "championId": "red_bull",
+    "points": "498",
+    "wins": "9",
+    "source": "Jolpica:2010/constructorStandings"
+  },
+  {
+    "season": 2011,
+    "type": "drivers",
+    "champion": "Sebastian Vettel",
+    "championId": "vettel",
+    "points": "392",
+    "wins": "11",
+    "source": "Jolpica:2011/driverStandings"
+  },
+  {
+    "season": 2011,
+    "type": "constructors",
+    "champion": "Red Bull",
+    "championId": "red_bull",
+    "points": "650",
+    "wins": "12",
+    "source": "Jolpica:2011/constructorStandings"
+  },
+  {
+    "season": 2012,
+    "type": "drivers",
+    "champion": "Sebastian Vettel",
+    "championId": "vettel",
+    "points": "281",
+    "wins": "5",
+    "source": "Jolpica:2012/driverStandings"
+  },
+  {
+    "season": 2012,
+    "type": "constructors",
+    "champion": "Red Bull",
+    "championId": "red_bull",
+    "points": "460",
+    "wins": "7",
+    "source": "Jolpica:2012/constructorStandings"
+  },
+  {
+    "season": 2013,
+    "type": "drivers",
+    "champion": "Sebastian Vettel",
+    "championId": "vettel",
+    "points": "397",
+    "wins": "13",
+    "source": "Jolpica:2013/driverStandings"
+  },
+  {
+    "season": 2013,
+    "type": "constructors",
+    "champion": "Red Bull",
+    "championId": "red_bull",
+    "points": "596",
+    "wins": "13",
+    "source": "Jolpica:2013/constructorStandings"
+  },
+  {
+    "season": 2014,
+    "type": "drivers",
+    "champion": "Lewis Hamilton",
+    "championId": "hamilton",
+    "points": "384",
+    "wins": "11",
+    "source": "Jolpica:2014/driverStandings"
+  },
+  {
+    "season": 2014,
+    "type": "constructors",
+    "champion": "Mercedes",
+    "championId": "mercedes",
+    "points": "701",
+    "wins": "16",
+    "source": "Jolpica:2014/constructorStandings"
+  },
+  {
+    "season": 2015,
+    "type": "drivers",
+    "champion": "Lewis Hamilton",
+    "championId": "hamilton",
+    "points": "381",
+    "wins": "10",
+    "source": "Jolpica:2015/driverStandings"
+  },
+  {
+    "season": 2015,
+    "type": "constructors",
+    "champion": "Mercedes",
+    "championId": "mercedes",
+    "points": "703",
+    "wins": "16",
+    "source": "Jolpica:2015/constructorStandings"
+  },
+  {
+    "season": 2016,
+    "type": "drivers",
+    "champion": "Nico Rosberg",
+    "championId": "rosberg",
+    "points": "385",
+    "wins": "9",
+    "source": "Jolpica:2016/driverStandings"
+  },
+  {
+    "season": 2016,
+    "type": "constructors",
+    "champion": "Mercedes",
+    "championId": "mercedes",
+    "points": "765",
+    "wins": "19",
+    "source": "Jolpica:2016/constructorStandings"
+  },
+  {
+    "season": 2017,
+    "type": "drivers",
+    "champion": "Lewis Hamilton",
+    "championId": "hamilton",
+    "points": "363",
+    "wins": "9",
+    "source": "Jolpica:2017/driverStandings"
+  },
+  {
+    "season": 2017,
+    "type": "constructors",
+    "champion": "Mercedes",
+    "championId": "mercedes",
+    "points": "668",
+    "wins": "12",
+    "source": "Jolpica:2017/constructorStandings"
+  },
+  {
+    "season": 2018,
+    "type": "drivers",
+    "champion": "Lewis Hamilton",
+    "championId": "hamilton",
+    "points": "408",
+    "wins": "11",
+    "source": "Jolpica:2018/driverStandings"
+  },
+  {
+    "season": 2018,
+    "type": "constructors",
+    "champion": "Mercedes",
+    "championId": "mercedes",
+    "points": "655",
+    "wins": "11",
+    "source": "Jolpica:2018/constructorStandings"
+  },
+  {
+    "season": 2019,
+    "type": "drivers",
+    "champion": "Lewis Hamilton",
+    "championId": "hamilton",
+    "points": "413",
+    "wins": "11",
+    "source": "Jolpica:2019/driverStandings"
+  },
+  {
+    "season": 2019,
+    "type": "constructors",
+    "champion": "Mercedes",
+    "championId": "mercedes",
+    "points": "739",
+    "wins": "15",
+    "source": "Jolpica:2019/constructorStandings"
+  },
+  {
+    "season": 2020,
+    "type": "drivers",
+    "champion": "Lewis Hamilton",
+    "championId": "hamilton",
+    "points": "347",
+    "wins": "11",
+    "source": "Jolpica:2020/driverStandings"
+  },
+  {
+    "season": 2020,
+    "type": "constructors",
+    "champion": "Mercedes",
+    "championId": "mercedes",
+    "points": "573",
+    "wins": "13",
+    "source": "Jolpica:2020/constructorStandings"
+  },
+  {
+    "season": 2021,
+    "type": "drivers",
+    "champion": "Max Verstappen",
+    "championId": "max_verstappen",
+    "points": "395.5",
+    "wins": "10",
+    "source": "Jolpica:2021/driverStandings"
+  },
+  {
+    "season": 2021,
+    "type": "constructors",
+    "champion": "Mercedes",
+    "championId": "mercedes",
+    "points": "613.5",
+    "wins": "9",
+    "source": "Jolpica:2021/constructorStandings"
+  },
+  {
+    "season": 2022,
+    "type": "drivers",
+    "champion": "Max Verstappen",
+    "championId": "max_verstappen",
+    "points": "454",
+    "wins": "15",
+    "source": "Jolpica:2022/driverStandings"
+  },
+  {
+    "season": 2022,
+    "type": "constructors",
+    "champion": "Red Bull",
+    "championId": "red_bull",
+    "points": "759",
+    "wins": "17",
+    "source": "Jolpica:2022/constructorStandings"
+  },
+  {
+    "season": 2023,
+    "type": "drivers",
+    "champion": "Max Verstappen",
+    "championId": "max_verstappen",
+    "points": "575",
+    "wins": "19",
+    "source": "Jolpica:2023/driverStandings"
+  },
+  {
+    "season": 2023,
+    "type": "constructors",
+    "champion": "Red Bull",
+    "championId": "red_bull",
+    "points": "860",
+    "wins": "21",
+    "source": "Jolpica:2023/constructorStandings"
+  },
+  {
+    "season": 2024,
+    "type": "drivers",
+    "champion": "Max Verstappen",
+    "championId": "max_verstappen",
+    "points": "437",
+    "wins": "9",
+    "source": "Jolpica:2024/driverStandings"
+  },
+  {
+    "season": 2024,
+    "type": "constructors",
+    "champion": "McLaren",
+    "championId": "mclaren",
+    "points": "666",
+    "wins": "6",
+    "source": "Jolpica:2024/constructorStandings"
+  },
+  {
+    "season": 2025,
+    "type": "drivers",
+    "champion": "Lando Norris",
+    "championId": "norris",
+    "points": "423",
+    "wins": "7",
+    "source": "Jolpica:2025/driverStandings"
+  },
+  {
+    "season": 2025,
+    "type": "constructors",
+    "champion": "McLaren",
+    "championId": "mclaren",
+    "points": "833",
+    "wins": "14",
+    "source": "Jolpica:2025/constructorStandings"
+  }
+]
