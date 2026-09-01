@@ -83,22 +83,25 @@ OUTPUT:
 ---
 ## BUILD LOG — How we actually built it (2026-08-31, reproducible)
 
-### What we shipped
-- 1149/1149 races (1950-2025), 25,784 results (deduped), 5670 QA pairs
-- `data/processed/races_normalized.jsonl` (11M) + `champions.json` (144) + `data/final/qa.jsonl` (2.2M)
-- 881/881 drivers, 76/76 seasons, 16 incidents, 11 constructors via Wikipedia (19M)
-- Validation: 0 duplicates, spot winners 1950/2023/2021/1994 correct, 76+68 champions
+### What we shipped (v2 — 2026-09-01)
+- 1149/1149 races (1950-2025), 25,784 results (deduped), 10418 QA pairs
+- `data/processed/races_normalized.jsonl` (11M) + `champions.json` (144) + `data/final/qa.jsonl` (3.5M)
+- 881/881 drivers, 76/76 seasons, 16 incidents, 11 constructors + 30 paddock persons + 38 F1 knowledge (20M) + 78 circuits
+- QA breakdown: 5745 race_result, 2039 qualifying, 1748 driver_bio, 364 champion, 177 circuit, 83 person, 80 season, 63 f1_knowledge, 80 h2h, 31 incident, 8 regulation
+- Validation: 0 duplicates, spot winners/poles correct, 76+68 champions
 
 ### Pipeline (run in order)
 ```
 pip install requests wikipedia-api fastf1    # fastf1 3.8.3, wikipedia-api 0.15.0
-python pipeline/01_fetch_jolpica_bulk.py     # Task 1 bulk — 76 seasons, ~19 min
-python pipeline/fast_normalize.py            # merge bulk+per-race cache → 25784 rows
-python pipeline/02_fetch_wikipedia.py        # Task 2 — 881 drivers, 76 seasons, ~10 min
-python pipeline/03_merge_qa.py               # Task 3 — entity-linked QA → 5670
+python pipeline/01_fetch_jolpica_bulk.py     # Task 1 bulk — 76 seasons, ~19 min (0.6s polite, offset+=100)
+python pipeline/fast_normalize.py            # merge bulk+per-race cache → 25784 rows (dedup 78)
+python pipeline/02_fetch_wikipedia.py        # Task 2 core — 881 drivers, 76 seasons, ~10 min
+python pipeline/05_add_paddock_knowledge.py  # B exhaustive — 30 persons + 38 knowledge → 5816 (+146)
+python pipeline/03_merge_qa.py               # Task 3 base QA → 5816
+python pipeline/06_expand_dataset.py         # expansions: qual 2039 + circuits 177 + h2h 80 + 5× 2298 + regs 8 → 10418
 # validate:
 python -c "import collections,json; r=[json.loads(l) for l in open('data/processed/races_normalized.jsonl')]; print(sum(1 for v in collections.Counter((x['race_id'],x['driverId']) for x in r).values() if v>1))"  # 0
-wc -l data/final/qa.jsonl                    # 5670
+wc -l data/final/qa.jsonl                    # 10418
 ```
 
 ### Key implementation notes (so you don't repeat mistakes)

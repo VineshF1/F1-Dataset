@@ -5,20 +5,31 @@
   "champions": "76 drivers + 68 constructors (144, pre-1958 no constructors)",
   "drivers_wiki": "881/881 (15M)",
   "seasons_wiki": "76/76 (4.1M)",
-  "qa_pairs": 5816,
+  "qa_pairs": 10418,
   "qa_by_type": {
-    "race_result": 3447,
+    "race_result": 5745,
     "driver_bio": 1748,
     "season_champion": 364,
     "season_summary": 80,
     "incident": 31,
     "person": 83,
-    "f1_knowledge": 63
+    "f1_knowledge": 63,
+    "qualifying": 2039,
+    "circuit": 177,
+    "h2h": 80,
+    "regulation": 8
   },
   "bulk": "limit=100 paginated by rows, verified races==sched per season",
   "verification": "formula1.com deferred",
   "licenses": "Jolpica CC BY-SA, Wikipedia CC BY-SA, FastF1 cross-check deferred (no telemetry)",
   "paddock_persons": "30/30",
   "f1_knowledge": "38/46",
-  "note_paddock": "B exhaustive 30 persons + 50 knowledge"
+  "note_paddock": "B exhaustive 30 persons + 50 knowledge",
+  "expansions": {
+    "qualifying": 1554,
+    "circuits": 177,
+    "h2h": 80,
+    "paraphrase": 2298,
+    "regulations": 8
+  }
 }
