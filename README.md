@@ -87,5 +87,8 @@ python pipeline/03_merge_qa.py            # 5816
 ## License
 Data CC BY-SA 4.0 (Jolpica/Wikipedia), code MIT. See `data/processed/DATA_DICTIONARY.json`.
 
-## Verification
-formula1.com scrape deferred — bulk validated vs Jolpica schedule (races == sched). Trap: `limit=100` paginates by Result rows not Races; fixed via `offset+=100` + round-dedup.
+## Author
+
+**Vinesh**
+
+Built with ❤️
