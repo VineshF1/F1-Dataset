@@ -53,17 +53,27 @@ def dedup(seq):
     return out
 KNOWLEDGE_TITLES = dedup(KNOWLEDGE_TITLES)
 
-def wiki_extract(title):
+def wiki_extract(title, retries=5):
     decoded=_up.unquote(title)
-    r=requests.get(API, params={"action":"query","prop":"extracts|info","titles":decoded,"explaintext":1,"exsectionformat":"plain","inprop":"url|displaytitle","redirects":1,"format":"json"}, headers=HEADERS, timeout=30)
-    r.raise_for_status()
-    pages=r.json().get("query",{}).get("pages",{})
-    for k,p in pages.items():
-        if k=="-1" or "missing" in p or "invalid" in p:
-            return {"title":decoded,"missing":True,"extract":"","url":f"https://en.wikipedia.org/wiki/{decoded.replace(' ','_')}"}
-        extract=p.get("extract","") or ""
-        url=p.get("fullurl") or f"https://en.wikipedia.org/wiki/{decoded.replace(' ','_')}"
-        return {"title":p.get("title",decoded),"display":p.get("displaytitle",decoded),"extract":extract,"url":url,"missing":False}
+    for attempt in range(retries):
+        r=requests.get(API, params={"action":"query","prop":"extracts|info","titles":decoded,"explaintext":1,"exsectionformat":"plain","inprop":"url|displaytitle","redirects":1,"format":"json"}, headers=HEADERS, timeout=30)
+        if r.status_code==429:
+            wait=int(r.headers.get("Retry-After","5"))
+            wait=max(wait, 5+attempt*5)
+            print(f"  429 {decoded} sleep {wait}s {attempt+1}/{retries}")
+            time.sleep(wait)
+            continue
+        r.raise_for_status()
+        time.sleep(0.6)
+        pages=r.json().get("query",{}).get("pages",{})
+        for k,p in pages.items():
+            if k=="-1" or "missing" in p or "invalid" in p:
+                return {"title":decoded,"missing":True,"extract":"","url":f"https://en.wikipedia.org/wiki/{decoded.replace(' ','_')}"}
+            extract=p.get("extract","") or ""
+            url=p.get("fullurl") or f"https://en.wikipedia.org/wiki/{decoded.replace(' ','_')}"
+            return {"title":p.get("title",decoded),"display":p.get("displaytitle",decoded),"extract":extract,"url":url,"missing":False}
+        return {"title":decoded,"missing":True,"extract":"","url":f"https://en.wikipedia.org/wiki/{decoded.replace(' ','_')}"}
+    print(f"  FAIL {decoded} after {retries} 429s")
     return {"title":decoded,"missing":True,"extract":"","url":f"https://en.wikipedia.org/wiki/{decoded.replace(' ','_')}"}
 
 def first_paras(extract, n=2, limit=900):
@@ -80,7 +90,6 @@ for t in PERSON_TITLES:
     d=wiki_extract(t); d["query_title"]=t
     persons.append(d)
     print(f"  {t} -> {len(d.get('extract',''))} {'MISSING' if d.get('missing') else 'OK'}")
-    time.sleep(0.15)
 
 knowledge=[]
 print(f"Fetching {len(KNOWLEDGE_TITLES)} knowledge...")
@@ -88,7 +97,6 @@ for t in KNOWLEDGE_TITLES:
     d=wiki_extract(t); d["query_title"]=t
     knowledge.append(d)
     print(f"  {t} -> {len(d.get('extract',''))} {'MISSING' if d.get('missing') else 'OK'}")
-    time.sleep(0.15)
 
 # stats
 persons_ok=[p for p in persons if not p.get("missing") and len(p.get("extract",""))>500]
