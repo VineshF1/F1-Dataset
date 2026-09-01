@@ -60,9 +60,9 @@ flowchart TB
     style H fill:#BE123C,stroke:#FDA4AF,stroke-width:2px,color:#fff
     style I fill:#4338CA,stroke:#A5B4FC,stroke-width:2px,color:#fff
 
-    style SOURCES fill:#FFF1F2,stroke:#DC0000,stroke-width:2px,color:#881337
-    style PIPELINE fill:#EFF6FF,stroke:#005AFF,stroke-width:2px,color:#1e3a8a
-    style OUTPUT fill:#ECFDF5,stroke:#00665E,stroke-width:2px,color:#065f46
+    style SOURCES fill:#1e1e2e,stroke:#6b7280,stroke-width:1px,color:#d1d5db
+    style PIPELINE fill:#1e1e2e,stroke:#6b7280,stroke-width:1px,color:#d1d5db
+    style OUTPUT fill:#1e1e2e,stroke:#6b7280,stroke-width:1px,color:#d1d5db
 ```
 
 ## Usage
