@@ -3,7 +3,7 @@
 LLM Q&A finetuning dataset — 1149 races, 25,784 results, 10539 QA pairs.
 
 ## Sources
-- **Jolpica F1 API** (`api.jolpi.ca/ergast/f1`) — 76 seasons bulk `/{season}/{results,qualifying,driverStandings,constructorStandings}.json` (CC BY-SA)
+- **Jolpica F1 API** (`api.jolpi.ca/ergast/f1`) — 76 seasons bulk `/{season}/{results,qualifying,driverStandings,constructorStandings}.json` 
 - **Wikipedia** (`wikipedia-api`) — 881 drivers, 76 seasons, 16 incidents, 11 constructors + 30 paddock persons + 38 F1 knowledge + 78 circuits
 
 ## Data
@@ -65,27 +65,8 @@ flowchart TB
     style OUTPUT fill:#1e1e2e,stroke:#6b7280,stroke-width:1px,color:#d1d5db
 ```
 
-## Usage
-```python
-from datasets import load_dataset
-ds = load_dataset("json", data_files="data/final/qa.jsonl")  # 10539
-```
-
-## Reproduce
-```bash
-pip install requests wikipedia-api
-python pipeline/01_fetch_jolpica_bulk.py  # 0.6s polite, offset+=100 paginated, races==sched
-python pipeline/fast_normalize.py         # dedup (race_id,driverId) → 25784
-python pipeline/02_fetch_wikipedia.py     # 881 drivers + 76 seasons
-python pipeline/05_add_paddock_knowledge.py  # 30 persons + 38 knowledge → 5816
-python pipeline/06_expand_dataset.py      # qual 2039 + circuits 177 + h2h 80 + 5× 2298 + regs 8 + career_total 121 → 10539
-```
-
 ## Coverage
 1950-2025 **100% races (1149/1149)**, 76/76 seasons, 881/881 drivers, 78/78 circuits, 30/30 paddock, 38/46 knowledge, qualifying from 1996 onward (pre-1996 no qual data). FastF1 cross-check deferred (results only, no telemetry/laps/weather).
-
-## License
-Data CC BY-SA 4.0 (Jolpica/Wikipedia), code MIT. See `data/processed/DATA_DICTIONARY.json`.
 
 ## Author
 
