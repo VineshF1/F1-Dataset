@@ -1,7 +1,7 @@
 {
   "question": "str",
   "answer": "str",
-  "source": "Jolpica/Wikipedia trace",
-  "entity_type": "race_result|season_champion|driver_bio|incident|season_summary",
+  "source": "Jolpica/Wikipedia trace + synthetic:champions.json",
+  "entity_type": "race_result|season_champion|career_total|driver_bio|incident|season_summary|qualifying|circuit|h2h|f1_knowledge|regulation",
   "season": "int|None"
 }

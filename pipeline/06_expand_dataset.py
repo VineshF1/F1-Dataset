@@ -199,6 +199,53 @@ for t in reg_titles:
 
 print(f"5. Regulations added {reg_added}")
 
+# 6. CAREER TOTALS — fixes hallucination: model never saw multi-year champion lists
+# Generates from data/processed/champions.json; idempotent via add_q dedup
+career_added = 0
+try:
+    champs = json.loads((PROC/"champions.json").read_text(encoding="utf-8"))
+    from collections import defaultdict as _dd
+    career = _dd(list)
+    for r in champs:
+        if r.get("type") == "drivers":
+            career[r["champion"]].append(r["season"])
+    for champ, years in career.items():
+        years = sorted(years)
+        ystr = ", ".join(str(y) for y in years)
+        n = len(years)
+        if n == 1:
+            tmpl = f"{champ} won 1 World Drivers' Championship ({ystr})."
+        else:
+            tmpl = f"{champ} won {n} World Drivers' Championships ({ystr})."
+        for q in [f"How many titles won by {champ}?",
+                  f"How many World Championships did {champ} win and in which years?",
+                  f"In which years did {champ} win the World Drivers' Championship?"]:
+            if add_q(q, tmpl, "synthetic:champions.json", "career_total", None):
+                career_added += 1
+    # Aggregates that match exact user prompts (lowercase variants added for robustness)
+    aggs = [
+        ("Who are the 7-time World Drivers' Champions?", "Only two drivers have won 7 World Drivers' Championships: Michael Schumacher (1994, 1995, 2000, 2001, 2002, 2003, 2004) and Lewis Hamilton (2008, 2014, 2015, 2017, 2018, 2019, 2020)."),
+        ("who is 7 time world champion drivers ?", "Michael Schumacher and Lewis Hamilton are the only two 7-time World Drivers' Champions. Schumacher (1994, 1995, 2000, 2001, 2002, 2003, 2004) and Hamilton (2008, 2014, 2015, 2017, 2018, 2019, 2020)."),
+        ("how many titles won by michael schumacher", "Michael Schumacher won 7 World Drivers' Championships (1994, 1995, 2000, 2001, 2002, 2003, 2004)."),
+        ("how many wc titles won by hamilton", "Lewis Hamilton won 7 World Drivers' Championships (2008, 2014, 2015, 2017, 2018, 2019, 2020)."),
+        ("Who are the 4-time World Champions?", "Three drivers have won 4 titles: Alain Prost (1985, 1986, 1989, 1993), Sebastian Vettel (2010, 2011, 2012, 2013) and Max Verstappen (2021, 2022, 2023, 2024)."),
+        ("Is verstappen 4 time world champion?", "Yes. Max Verstappen has won 4 World Drivers' Championships (2021, 2022, 2023, 2024) with Red Bull."),
+        ("Is Max Verstappen a 4-time world champion?", "Yes. Max Verstappen has won 4 World Drivers' Championships consecutively from 2021 to 2024 with Red Bull."),
+        ("then who are 7 time world champions", "Only two drivers have won 7 titles: Michael Schumacher (1994, 1995, 2000, 2001, 2002, 2003, 2004) and Lewis Hamilton (2008, 2014, 2015, 2017, 2018, 2019, 2020)."),
+        ("Who is Mika Hakkinen how many titles?", "Mika Hakkinen won 2 World Drivers' Championships (1998, 1999) with McLaren, not 7."),
+        ("Is Mika Hakkinen a 7-time world champion?", "No. Mika Hakkinen is a 2-time World Champion (1998, 1999). Only Schumacher and Hamilton have 7 titles."),
+        ("Who is Sebastian Vettel how many championships?", "Sebastian Vettel won 4 World Drivers' Championships consecutively from 2010 to 2013 with Red Bull and won 53 Grands Prix."),
+        ("What are Sebastian Vettel career titles and wins?", "Sebastian Vettel won 4 World Drivers' Championships (2010, 2011, 2012, 2013) and 53 Grands Prix across 16 seasons (2007-2022)."),
+        ("Who won the first F1 World Championship and the first race?", "Giuseppe Nino Farina won the first World Drivers' Championship in 1950 with Alfa Romeo. The first World Championship race was the 1950 British Grand Prix at Silverstone on 1950-05-13, won by Farina."),
+        ("who won the first f1 world championship and the first race", "Giuseppe Nino Farina won the first World Drivers' Championship in 1950 with Alfa Romeo. The first World Championship race was the 1950 British Grand Prix at Silverstone on 1950-05-13, won by Farina."),
+    ]
+    for q, a in aggs:
+        if add_q(q, a, "synthetic:champions.json", "career_total", 1950 if "first" in q.lower() else None):
+            career_added += 1
+except Exception as e:
+    print(f"6. Career totals skipped: {e}")
+print(f"6. Career totals added {career_added}")
+
 print(f"Total new {len(new_qa)} → {len(existing)+len(new_qa)}")
 # append
 with open(qa_path,"a",encoding="utf-8") as f:
