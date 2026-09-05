@@ -5,7 +5,7 @@
   "champions": "76 drivers + 68 constructors (144, pre-1958 no constructors)",
   "drivers_wiki": "881/881 (15M)",
   "seasons_wiki": "76/76 (4.1M)",
-  "qa_pairs": 10539,
+  "qa_pairs": 10639,
   "qa_by_type": {
     "race_result": 5745,
     "driver_bio": 1748,
@@ -18,7 +18,7 @@
     "circuit": 177,
     "h2h": 80,
     "regulation": 8,
-    "career_total": 121
+    "career_total": 221
   },
   "bulk": "limit=100 paginated by rows, verified races==sched per season",
   "verification": "formula1.com deferred",
@@ -32,6 +32,6 @@
     "h2h": 0,
     "paraphrase": 0,
     "regulations": 0,
-    "career_total": 121
+    "career_total": 221
   }
 }

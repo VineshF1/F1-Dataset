@@ -1,5 +1,5 @@
 {
-  "total": 10539,
+  "total": 10639,
   "by_type": {
     "race_result": 5745,
     "driver_bio": 1748,
@@ -12,13 +12,13 @@
     "circuit": 177,
     "h2h": 80,
     "regulation": 8,
-    "career_total": 121
+    "career_total": 221
   },
   "sources": 2917,
   "by_era": {
     "1950-1969": 1054,
     "1970-1989": 1648,
-    "unknown": 2198,
+    "unknown": 2298,
     "2010-2025": 3080,
     "1990-2009": 2559
   }
