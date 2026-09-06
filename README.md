@@ -1,6 +1,6 @@
 # F1-Dataset 1950-2025
 
-LLM Q&A finetuning dataset — 1149 races, 25,784 results, 10639 QA pairs.
+LLM Q&A finetuning dataset — 1149 races, 25,784 results, 10656 QA pairs.
 
 ## Sources
 - **Jolpica F1 API** (`api.jolpi.ca/ergast/f1`) — 76 seasons bulk `/{season}/{results,qualifying,driverStandings,constructorStandings}.json` 
@@ -12,9 +12,9 @@ data/raw/jolpica/          76 bulk _results.json + _schedule.json (104M)
 data/raw/wikipedia/        drivers_wiki.json (14M) seasons_wiki.json (4.1M) paddock_*.json (1.4M)
 data/processed/races_normalized.jsonl  25,784 rows, 1149 races
 data/processed/champions.json          144 (76 drivers + 68 constructors)
-data/final/qa.jsonl                    10639 pairs {question,answer,source,entity_type,season}
+data/final/qa.jsonl                    10656 pairs {question,answer,source,entity_type,season}
 ```
-QA: `5745` race_result · `2039` qualifying · `1748` driver_bio · `364` champion · `177` circuit · `221` career_total · `83` person · `80` season · `63` f1_knowledge · `80` h2h · `31` incident · `8` regulation
+QA: `5745` race_result · `2039` qualifying · `1748` driver_bio · `364` champion · `177` circuit · `239` career_total · `83` person · `80` season · `63` f1_knowledge · `80` h2h · `31` incident · `8` regulation
 
 ## QA schema
 `question` paraphrased (3x→5x per race), `answer` factual, `source` traceable `Jolpica:season/round/results` or `Jolpica:season/round/qualifying` or `Wikipedia:Page` or `synthetic:champions.json`, `entity_type` race_result|qualifying|season_champion|career_total|driver_bio|person|f1_knowledge|circuit|h2h|incident|regulation, `season` int.
@@ -37,7 +37,7 @@ flowchart TB
 
     subgraph OUTPUT["Dataset"]
         G["<b>races_normalized.jsonl</b><br/>11 MB"]
-        H["<b>qa.jsonl</b><br/>10639 pairs · 3.5 MB"]
+        H["<b>qa.jsonl</b><br/>10656 pairs · 3.5 MB"]
         I["<b>champions.json</b><br/>144"]
     end
 
